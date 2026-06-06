@@ -16,8 +16,7 @@ Este proyecto aplica los conceptos del Capítulo 17 (Aprendizaje de árboles y r
 ENLACES A LOS ELEMENTOS REQUERIDOS:
 
 1. REPOSITORIO GIT (Código fuente, Dataset y Documentación técnica):
-   Link del Repositorio: [PEGA AQUÍ EL ENLACE DE TU GITHUB O GITLAB]
-   * Nota: El tutor ya fue agregado como colaborador del proyecto para la revisión de los commits del equipo.
+   Link del Repositorio: https://github.com/valentinahenaotoro-lab/Arbol/blob/4fb75d58a5308a77f947b9512037e700bba8face/Arbol%20de%20decision.py
 
 2. MAPA CONCEPTUAL (Árboles y Reglas de Decisión):
    Link del Mapa Conceptual: https://github.com/valentinahenaotoro-lab/Arbol/blob/ebc0cd7099c1ade0c4e70f5cfc2b6ea99738ef3c/mapa_conceptual.md
