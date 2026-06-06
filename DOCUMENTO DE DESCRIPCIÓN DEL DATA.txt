@@ -1,0 +1,43 @@
+# DOCUMENTO DE DESCRIPCIÓN DEL DATASET
+# PROYECTO: SISTEMA DE PREDICCIÓN DE RETRASOS EN TRANSPORTE MASIVO
+
+1. INTRODUCCIÓN Y ORIGEN DE LOS DATOS
+Debido a las restricciones de acceso a las APIs de datos en tiempo real de las empresas operadoras de transporte masivo, diseñe un dataset sintético basado en las dinámicas y variables más comunes de la movilidad urbana. El archivo fuente se denomina "datos_transporte.csv.csv" y cuenta con una estructura tabular estructurada para modelos de aprendizaje supervisado.
+
+2. TAMAÑO Y VOLUMEN DEL DATASET
+- Filas (Registros): 10 ejemplos de trayectos históricos para la fase de pruebas del prototipo.
+- Columnas (Variables): 4 dimensiones (3 variables predictoras de entrada y 1 variable objetivo).
+
+3. DICCIONARIO DE DATOS (ESPECIFICACIÓN DE VARIABLES)
+
+* hora_pico
+  - Tipo: Numérico Binario (0 o 1)
+  - Rol: Variable Predictora (Input)
+  - Descripción: Determina si el viaje se realiza en las franjas horarias de mayor congestión vehicular en la ciudad.
+  - Valores: 
+    1 = Hora Pico (Flujo vehicular congestionado)
+    0 = Hora Valle (Flujo vehicular libre)
+
+* clima_lluvioso
+  - Tipo: Numérico Binario (0 o 1)
+  - Rol: Variable Predictora (Input)
+  - Descripción: Registra las condiciones climáticas del entorno al momento de iniciar la ruta.
+  - Valores: 
+    1 = Presencia de lluvia o precipitaciones moderadas.
+    0 = Clima seco, despejado o condiciones normales.
+
+* accidente_via
+  - Tipo: Numérico Binario (0 o 1)
+  - Rol: Variable Predictora (Input)
+  - Descripción: Reporta si existe alguna novedad logística, siniestro o reducción de calzada en el trayecto asignado.
+  - Valores: 
+    1 = Accidente, obra en la vía o bloqueo reportado.
+    0 = Vía completamente despejada.
+
+* retrasado
+  - Tipo: Numérico Binario (0 o 1)
+  - Rol: Variable Objetivo (Target / Etiqueta)
+  - Descripción: Variable que el algoritmo supervisado debe aprender a clasificar. Representa la puntualidad final del bus.
+  - Valores: 
+    1 = El autobús llegó con retraso a la estación.
+    0 = El autobús llegó a tiempo según el itinerario.

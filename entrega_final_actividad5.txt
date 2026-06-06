@@ -1,0 +1,26 @@
+# UNIVERSIDAD IBEROAMERICANA
+# INGENIERÍA EN CIENCIA DE DATOS
+# ASIGNATURA: INTELIGENCIA ARTIFICIAL
+# ENTREGABLE: ACTIVIDAD 5 - MÉTODOS SUPERVISADOS
+
+INTEGRANTES DEL EQUIPO:
+1. Valentina Henao Toro
+
+---
+
+DESCRIPCIÓN DEL PROYECTO:
+Este proyecto aplica los conceptos del Capítulo 17 (Aprendizaje de árboles y reglas de decisión) utilizando el lenguaje Python para predecir la puntualidad de las rutas de un sistema de transporte masivo, analizando variables críticas como el clima, accidentes de tránsito y las horas pico de movilidad urbana.
+
+---
+
+ENLACES A LOS ELEMENTOS REQUERIDOS:
+
+1. REPOSITORIO GIT (Código fuente, Dataset y Documentación técnica):
+   Link del Repositorio: [PEGA AQUÍ EL ENLACE DE TU GITHUB O GITLAB]
+   * Nota: El tutor ya fue agregado como colaborador del proyecto para la revisión de los commits del equipo.
+
+2. MAPA CONCEPTUAL (Árboles y Reglas de Decisión):
+   Link del Mapa Conceptual: [PEGA AQUÍ EL ENLACE DE CANVA / CMAPTOOLS]
+
+3. VIDEO DE SUSTENTACIÓN (Máximo 5 minutos - Participación de todo el equipo):
+   Link del Video: [PEGA AQUÍ EL ENLACE DE YOUTUBE O DRIVE]
